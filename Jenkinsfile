@@ -47,7 +47,7 @@ pipeline {
                 subject: "SUCCESS: Job ${env.JOB_NAME} ${env.BUILD_NUMBER}",
                 body: """The build was successful!
 
-BUILD SUCCESSFUL!!
+BUILD SUCCESSFUL!!!
 
 Job: ${env.JOB_NAME}
 Build URL: ${env.BUILD_URL}
